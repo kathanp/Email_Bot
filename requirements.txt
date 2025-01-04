@@ -1,8 +1,7 @@
 # requirements.txt
 
-pandas==2.1.0
-PyPDF2==3.0.1
-python-dotenv==1.0.0
-pytest==7.4.0
-logging-formatter==1.0.2
-openpyxl==3.1.2
+flask
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+python-dotenv
