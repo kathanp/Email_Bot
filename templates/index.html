@@ -41,8 +41,8 @@
         document.getElementById('googleSignIn').addEventListener('click', async () => {
             try {
                 const response = await fetch('/auth/google');
-                const authUrl = await response.json();
-                window.location.href = authUrl.url;
+                const data = await response.json();
+                window.location.href = data.url;
             } catch (error) {
                 console.error('Authentication failed:', error);
                 alert('Failed to initialize Google authentication');

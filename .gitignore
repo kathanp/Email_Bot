@@ -1,3 +1,29 @@
-client_secrets.json
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OAuth credentials
+client_secrets.json
+credentials.json
+token.json
+
+# Logs
+*.log
